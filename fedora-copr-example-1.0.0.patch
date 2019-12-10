@@ -1,0 +1,11 @@
+--- fedora-copr-example-1.0.0-orig/fedora-copr-example.c	2019-10-13 10:04:38.114081000 +0100
++++ fedora-copr-example-1.0.0/fedora-copr-example.c	2019-10-13 12:19:02.830494028 +0100
+@@ -2,6 +2,6 @@
+ 
+ int main()
+ {
+-    printf("%s", "Fedora Copr Example.\n");
++    printf("%s", "PATCHED: Fedora Copr Example.\n");
+     return 0;
+ }
+
